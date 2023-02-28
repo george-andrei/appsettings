@@ -1,2 +1,4 @@
-# appsettings
-Repository with my dotfiles
+# Applications settings repository
+Repository containing settings for my applications.
+
+* [Windows Terminal Settings](./windows-terminal-settings/)
