@@ -16,10 +16,6 @@
             "keys": "ctrl+v"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "command": 
             {
                 "action": "splitPane",
@@ -27,12 +23,22 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         }
     ],
     "alwaysShowNotificationIcon": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
         "defaults": 
@@ -54,6 +60,8 @@
                 "name": "Windows PowerShell"
             },
             {
+                "colorScheme": "matrix",
+                "experimental.retroTerminalEffect": true,
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
@@ -109,16 +117,23 @@
                 "source": "Windows.Terminal.Wsl"
             },
             {
-                "cursorShape": "vintage",
+                "guid": "{8ab8e6f6-35c6-5b46-8419-3e1568105476}",
+                "hidden": false,
+                "name": "podman-machine-default",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "adjustIndistinguishableColors": "never",
+                "colorScheme": "Vintage",
+                "experimental.retroTerminalEffect": false,
                 "font": 
                 {
-                    "face": "MesloLGS NF"
+                    "face": "MesloLGL NF"
                 },
-                "guid": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
+                "guid": "{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}",
                 "hidden": false,
-                "name": "Ubuntu 22.04.2 LTS",
-                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
-                "useAtlasEngine": true
+                "name": "Ubuntu 22.04.3 LTS",
+                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
             }
         ]
     },
@@ -261,6 +276,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#0081FF",
+            "brightBlack": "#555555",
+            "brightBlue": "#0000FF",
+            "brightCyan": "#00CDCD",
+            "brightGreen": "#00EE00",
+            "brightPurple": "#FF00FF",
+            "brightRed": "#FF0000",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFF00",
+            "cursorColor": "#BBBBBB",
+            "cyan": "#008B8B",
+            "foreground": "#00A595",
+            "green": "#008B00",
+            "name": "ENCOM",
+            "purple": "#BC00CA",
+            "red": "#9F0000",
+            "selectionBackground": "#00A48C",
+            "white": "#BBBBBB",
+            "yellow": "#FFD000"
         },
         {
             "background": "#224FBC",
@@ -491,8 +529,33 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
+        },
+        {
+            "background": "#0F191C",
+            "black": "#0F191C",
+            "blue": "#3F5242",
+            "brightBlack": "#688060",
+            "brightBlue": "#4F7E7E",
+            "brightCyan": "#C1FF8A",
+            "brightGreen": "#90D762",
+            "brightPurple": "#11FF25",
+            "brightRed": "#2FC079",
+            "brightWhite": "#678C61",
+            "brightYellow": "#FAFF00",
+            "cursorColor": "#384545",
+            "cyan": "#50B45A",
+            "foreground": "#426644",
+            "green": "#82D967",
+            "name": "matrix",
+            "purple": "#409931",
+            "red": "#23755A",
+            "selectionBackground": "#18282E",
+            "white": "#507350",
+            "yellow": "#FFD700"
         }
     ],
+    "tabWidthMode": "titleLength",
+    "theme": "dark",
     "themes": [],
     "useAcrylicInTabRow": true
 }
